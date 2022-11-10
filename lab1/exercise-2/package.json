@@ -10,8 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "moment": "^2.29.4",
-    "say": "^0.16.0",
-    "say.js": "^1.4.0"
+    "say": "^0.16.0"
   }
 }
