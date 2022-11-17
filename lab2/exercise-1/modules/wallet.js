@@ -3,6 +3,11 @@ const getAddress = function() {
     console.log(`Wallet address is ${address}`);
 }
 
+const depositAmount = (amount) => {
+    console.log(`Amount: ${amount} deposited.`);
+}
+
 module.exports = {
-    getAddress
+    getAddress,
+    depositAmount
 }
