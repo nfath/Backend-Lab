@@ -1,7 +1,7 @@
 const express = require('express');
 let app = express();
 
-app.listen(3002);
+app.listen(3000);
 
 let requestTime = (req, res, next) => {
     req.requestTime = Date.now();
